@@ -38,7 +38,7 @@ func saveVideos(videos []video) {
 
 	videoBytes, err := json.Marshal(videos)
 
-	if err != nil {
+	if err != nil { 
 		panic(err)
 	}
 
